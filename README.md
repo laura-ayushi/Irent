@@ -1,4 +1,5 @@
 # Irent
+#### A mobile application
 ## Author
 #### Laura Ayushi
 ## Project Description
@@ -8,7 +9,7 @@
 #### A mobile phone is also required.
 ## Link to Live Site
 
-## MIT License
+## MIT License and Copyrights
 MIT License
 
 Copyright (c) 2021 laura-create
