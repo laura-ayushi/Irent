@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.irent.Logout">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="579dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="120dp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="20sp"
+                android:text="Logout Page"
+                android:textColor="#23203f"
+                android:textSize="40sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:letterSpacing="0.0265"
+                android:text="Click the cancel button"
+                android:textColor="#6e6e73"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:letterSpacing="0.0265"
+                android:text="to proceed to the login page"
+                android:textColor="#6e6e73"
+                android:textSize="21sp" />
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="121dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="29dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="279dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/button_gradient"
+                    android:gravity="center"
+                    android:lineSpacingExtra="34sp"
+                    android:onClick="openlogin"
+                    android:paddingTop="10.5dp"
+                    android:paddingBottom="10.5dp"
+                    android:text="Cancel"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

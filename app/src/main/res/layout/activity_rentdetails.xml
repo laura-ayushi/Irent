@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    tools:context=".Rentdetails">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="366dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="15dp"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/googlemaps"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="8dp"
+            android:text="4.5"
+            android:background="@drawable/maps"
+            android:onClick="openLocation"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/houseimage" />
+
+        <ImageView
+            android:id="@+id/houseimage"
+            android:layout_width="fill_parent"
+            android:layout_height="222dp"
+            android:layout_marginTop="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/umoja" />
+
+
+
+        <TextView
+        android:id="@+id/placename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:text="1 bdrm Apartment in Umoja"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/houseimage" />
+
+
+        <Button
+            android:id="@+id/callus"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="CALL US"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:drawableRight="@drawable/ic_baseline_add_ic_call_24"
+            android:onClick="dialphone"
+            android:paddingRight="15dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/houseimage" />
+
+        <TextView
+        android:id="@+id/countryname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Residence :"
+        android:textColor="#044363"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/placename"
+        app:layout_constraintTop_toBottomOf="@+id/placename" />
+
+    <TextView
+        android:id="@+id/pricename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Price  : "
+        android:textColor="#044363"
+        app:layout_constraintStart_toStartOf="@+id/countryname"
+        app:layout_constraintTop_toBottomOf="@+id/countryname" />
+
+    <TextView
+        android:id="@+id/residencetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Umoja, Nairobi"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/countryname"
+        app:layout_constraintStart_toEndOf="@+id/countryname"
+        app:layout_constraintTop_toTopOf="@+id/countryname" />
+
+        <TextView
+            android:id="@+id/pricetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Kshs. 8,500 per month"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/pricename"
+            app:layout_constraintStart_toEndOf="@+id/pricename"
+            app:layout_constraintTop_toTopOf="@+id/pricename"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+        <TextView
+            android:id="@+id/amenities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:text="Amenities"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pricename"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/amenitiestext"
+            android:layout_width="311dp"
+            android:layout_height="50dp"
+            android:text="1 bedroom, 1 bathroom, hot water,balcony,kitchen shelf, tiled floor, 24/7 water supply"
+            app:layout_constraintBottom_toTopOf="@+id/feedbackbutton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amenities"
+            app:layout_constraintTop_toBottomOf="@+id/amenities"
+            app:layout_constraintVertical_bias="0.041" />
+
+        <Button
+            android:id="@+id/feedbackbutton"
+            android:layout_width="347dp"
+            android:layout_height="42dp"
+            android:background="@drawable/btn_selector_shape"
+            android:onClick="openfeedbackPage"
+            android:text="LEAVE FEEDBACK"
+            android:layout_marginBottom="5dp"
+            android:textColor="#008b8b"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amenitiestext"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <LinearLayout
+            android:layout_width="397dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/feedbackbutton">
+
+
+            <ImageView
+                android:id="@+id/feedbackicon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:onClick="openfeedbackPage"
+                android:src="@drawable/feedback"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/homeicon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:onClick="openhomePage"
+                app:srcCompat="@drawable/homeicon"
+                tools:ignore="OnClick" />
+
+
+            <ImageView
+                android:id="@+id/profilepageicon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:onClick="openprofilePage"
+                app:srcCompat="@drawable/toprofileicon"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

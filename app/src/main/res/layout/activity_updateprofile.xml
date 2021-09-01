@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateprofile">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="374dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        tools:ignore="MissingClass">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/close_settings_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/settings_profile_image"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/toprofileicon"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/settings_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settings_phone_number"
+                android:layout_marginTop="33dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:text="Email Address:"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settings_phone_number"
+                android:layout_marginTop="33dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="150dp"
+                android:textColor="@color/black"
+                android:text="laura.ochieng@strathmore.edu"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/settings_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settings_profile_image"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:padding="10dp"
+                android:text="Full name:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/settings_profiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settings_profile_image"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="71dp"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:text="Laura Ayushi:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/profile_image_change_btn"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/settings_profile_image"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="140dp"
+                android:padding="10dp"
+                android:text="Profile"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/profilebuttonclick"
+                android:layout_width="200dp"
+                android:layout_height="59dp"
+                android:layout_below="@+id/settings_address"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@color/blue"
+                android:drawableRight="@drawable/ic_baseline_person_24"
+                android:padding="10dp"
+                android:text="Update Profile"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

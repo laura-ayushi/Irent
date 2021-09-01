@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="15dp"
+    tools:context=".Thankyouresponse">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="365dp"
+        android:layout_height="266dp"
+        tools:ignore="MissingClass,MissingConstraints"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="137dp">
+
+
+        <TextView
+            android:id="@+id/thankyounote"
+            android:layout_width="312dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:letterSpacing="0.0265"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="5dp"
+            android:text="Thank you so much for using our app."
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
