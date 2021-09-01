@@ -7,8 +7,6 @@
 ## Set up requirements
 #### To set up the application one needs to have a stable internet connection.
 #### A mobile phone is also required.
-## Link to Live Site
-
 ## MIT License and Copyrights
 MIT License
 
