@@ -1,13 +1,13 @@
 # Irent
-#### A mobile application
+A mobile application
 ## Author
-#### Laura Ayushi
+Laura Ayushi
 ## Project Description
-#### The application is a mobile application that helps in the process of house hunting by connecting tenants to landlords.
+The application is a mobile application that helps in the process of house hunting by connecting tenants to landlords.
 ## Set up requirements
-#### To set up the application one needs to have a stable internet connection.
-#### A mobile phone is also required.
-## MIT License and Copyrights
+To set up the application one needs to have a stable internet connection.
+A mobile phone is also required.
+##MIT License and Copyrights
 MIT License
 
 Copyright (c) 2021 laura-create
